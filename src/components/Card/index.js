@@ -9,6 +9,7 @@ const Card = ({
   difficulty,
   slug,
 }) => {
+  console.log(`/recipe/${slug}`);
 
   return (
     <article className="card">
